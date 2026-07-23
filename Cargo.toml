@@ -11,7 +11,7 @@ repository = "https://gitlab.com/haproxy-haptic/haproxy-spoa-hub-plugin-api-gate
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-base64 = "0.22"
+base64 = "0.23"
 haproxy-spoa-hub-plugin-api = "0.7"
 jsonschema = { version = "0.48", default-features = false }
 log = "0.4"
