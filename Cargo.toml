@@ -5,7 +5,7 @@ edition = "2024"
 rust-version = "1.86"
 description = "Low-latency API gateway validation plugin for haproxy-spoa-hub"
 license = "Apache-2.0"
-repository = "https://gitlab.com/haproxy-haptic/haproxy-spoa-hub-plugin-api-gateway"
+repository = "https://github.com/haproxy-haptic/haproxy-spoa-hub-plugin-api-gateway"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

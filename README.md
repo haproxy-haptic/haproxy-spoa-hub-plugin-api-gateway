@@ -1,7 +1,7 @@
 # haproxy-spoa-hub-plugin-api-gateway
 
 Low-latency API gateway validation plugin for
-[haproxy-spoa-hub](https://gitlab.com/haproxy-haptic/haproxy-spoa-hub).
+[haproxy-spoa-hub](https://github.com/haproxy-haptic/haproxy-spoa-hub).
 
 Initial scope:
 
