@@ -1,0 +1,24 @@
+[
+  {
+    "message": "validate",
+    "args": {
+      "schema_id": "catalog",
+      "content_type": "application/json",
+      "body": "{\"name\":\"book\"}"
+    },
+    "expect": {
+      "api_gateway.allowed": true
+    }
+  },
+  {
+    "message": "validate",
+    "args": {
+      "schema_id": "catalog",
+      "content_type": "application/json",
+      "body": "{}"
+    },
+    "expect": {
+      "api_gateway.allowed": false
+    }
+  }
+]

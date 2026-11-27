@@ -1,0 +1,6 @@
+[[plugins]]
+name = "api_gateway"
+library = "libapi_gateway_plugin.so"
+messages = ["validate"]
+[plugins.params.schemas.catalog]
+schema_base64 = "eyJ0eXBlIjoib2JqZWN0IiwicmVxdWlyZWQiOlsibmFtZSJdfQ=="
