@@ -7,7 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-27
+
 ### Changed
+
+- Release builds train profile-guided optimization on SPOE requests for AMD64, ARM64 and ARMv7.
 
 - Development and releases moved to GitHub (`https://github.com/haproxy-haptic/haproxy-spoa-hub-plugin-api-gateway`); GitLab is a read-only mirror.
 
